@@ -17,6 +17,6 @@ jobs:
       - name: Increment Tag - Main
         uses: owasp-sbot/OSBot-GitHub-Actions/.github/actions/increment-tag-main@main
         with:
-          package_name: 'cbr_xyz'
+          package_name: 'user_deployment_examples'
 
 

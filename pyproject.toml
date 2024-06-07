@@ -1,16 +1,17 @@
 [tool.poetry]
-name        = "cbr_xyz"
+name        = "user_deployment_examples"
 version     = "v0.2.1"
-description = "CBR - XYZ"
+description = "CBR - User Deployment Examples"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "MIT"
 readme      = "README.md"
-homepage    = "https://github.com/the-cyber-boardroom/cbr-xyz"
-repository  = "https://github.com/the-cyber-boardroom/cbr-xyz"
+homepage    = "https://github.com/the-cyber-boardroom/user_deployment_examples"
+repository  = "https://github.com/the-cyber-boardroom/user_deployment_examples"
 
 [tool.poetry.dependencies]
-python          = "^3.7"
+python          = "^3.10"
 osbot-utils     = "*"
+cbr_website_beta = "*"
 
 
 [build-system]
